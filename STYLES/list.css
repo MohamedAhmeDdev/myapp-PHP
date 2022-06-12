@@ -1,0 +1,36 @@
+.customers-table{
+    border: 1px solid purple;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.customers-table th{
+    border-left: 1px solid purple;
+    padding: 4px 8px;
+}
+
+.customers-table td{
+    padding: 4px 8px;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls-button{
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+.controls-button.edit{
+    background-color: purple;
+    color: purple;
+}
+
+.controls-button.delete{
+    background-color: red;
+    color: blue;
+}
